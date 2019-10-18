@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.2.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="XTAL500X320X130N">
+<wire x1="-2.5" y1="1.7" x2="2.5" y2="1.7" width="0.127" layer="21"/>
+<wire x1="2.5" y1="1.7" x2="2.5" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="2.5" y1="-1.7" x2="-2.5" y2="-1.7" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-1.7" x2="-2.5" y2="1.7" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="1.95" x2="3.4" y2="1.95" width="0.05" layer="39"/>
+<wire x1="3.4" y1="1.95" x2="3.4" y2="-1.95" width="0.05" layer="39"/>
+<wire x1="3.4" y1="-1.95" x2="-3.4" y2="-1.95" width="0.05" layer="39"/>
+<wire x1="-3.4" y1="-1.95" x2="-3.4" y2="1.95" width="0.05" layer="39"/>
+<text x="-4.63583125" y="3.0422" size="1.83991875" layer="25">&gt;NAME</text>
+<text x="-5.28988125" y="-4.9324" size="1.815659375" layer="27">&gt;VALUE</text>
+<smd name="1" x="-2.15" y="0" dx="1.95" dy="2.95" layer="1"/>
+<smd name="2" x="2.15" y="0" dx="1.95" dy="2.95" layer="1"/>
+</package>
+<package name="2SMD">
+<wire x1="-0.8" y1="0.5" x2="-0.8" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="-0.8" y1="-0.5" x2="0.8" y2="-0.5" width="0.127" layer="51"/>
+<wire x1="0.8" y1="-0.5" x2="0.8" y2="0.5" width="0.127" layer="51"/>
+<wire x1="0.8" y1="0.5" x2="-0.8" y2="0.5" width="0.127" layer="51"/>
+<wire x1="-1.05" y1="0.75" x2="-1.05" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="-1.05" y1="-0.75" x2="1.05" y2="-0.75" width="0.05" layer="39"/>
+<wire x1="1.05" y1="-0.75" x2="1.05" y2="0.75" width="0.05" layer="39"/>
+<wire x1="1.05" y1="0.75" x2="-1.05" y2="0.75" width="0.05" layer="39"/>
+<text x="-1.05163125" y="0.9905375" size="0.25439375" layer="25">&gt;NAME</text>
+<text x="-1.05121875" y="-1.16135" size="0.25429375" layer="27">&gt;VALUE</text>
+<smd name="1" x="-0.55" y="0" dx="0.5" dy="1" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.5" dy="1" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ABS05-32.768KHZ-9-T">
+<wire x1="-12.7" y1="5.08" x2="12.7" y2="5.08" width="0.41" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-5.08" width="0.41" layer="94"/>
+<wire x1="12.7" y1="-5.08" x2="-12.7" y2="-5.08" width="0.41" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="5.08" width="0.41" layer="94"/>
+<text x="-12.7" y="6.08" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-12.7" y="-9.08" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<pin name="2" x="-17.78" y="2.54" length="middle"/>
+<pin name="FEED1" x="-17.78" y="-2.54" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ABS05-32.768KHZ-9-T" prefix="U">
+<description>None</description>
+<gates>
+<gate name="G$1" symbol="ABS05-32.768KHZ-9-T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="XTAL500X320X130N">
+<connects>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="FEED1" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" ABS05 Series 32.768 kHz ±20 ppm 9 pF -40 to +85 °C SMT Low Profile Crystal "/>
+<attribute name="MF" value="Abracon LLC"/>
+<attribute name="MP" value="ABS05-32.768KHZ-9-T"/>
+<attribute name="PACKAGE" value="SMD-2 Abracon"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
